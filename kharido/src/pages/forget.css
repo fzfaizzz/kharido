@@ -1,0 +1,32 @@
+.font{
+    font-family: 'Courier New', Courier, monospace;
+}
+.logpage{
+    background-color: rgba(128, 128, 128, 0.633);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 37);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(128, 128, 128, 0.576);
+}
+/* Basic button styling */
+.get-otp-btn {
+
+    color: #a4d3a5; /* Light green text */
+    font-size: 0.875rem; /* Small font size */
+    font-family: 'serif';
+    border-radius: 0.75rem; /* Rounded corners */
+    padding: 0.25rem 1.75rem; /* Padding inside the button */
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect: changes background color and slightly enlarges the button */
+  .get-otp-btn:hover {
+    background-color: #595b5e; /* Change to a blue color on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  
+  /* Click effect: adds a quick shrinking animation */
+  .get-otp-btn:active {
+    transform: scale(0.95); /* Slightly shrink the button */
+  }
+  
