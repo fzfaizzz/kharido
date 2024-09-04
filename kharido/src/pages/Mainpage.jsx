@@ -24,7 +24,7 @@ function Mainpage() {
         )}
 
       <img src="images/stepnlogo.png" alt="logo" className=' shoes  h-24 ml-auto mr-auto py-2 ' />
-      <div className='flex absolute top-7 right-12 text-white text-3xl hidden md:inline-block'>
+      <div className='sm:flex absolute top-7 right-12 text-white text-3xl hidden md:inline-block'>
       <a href=""><i class="fa fa-facebook-f"></i></a>
       <a href=""><i class="fa fa-instagram mx-7"></i></a>
       <a href=""><i class="fa fa-twitter "></i></a>
